@@ -1,0 +1,154 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: fixed;  /* Sticks the navbar to the viewport */
+  top: 0;           /* Always at the top */
+  left: 0;          /* Start from left edge */
+  width: 100%;      /* Full width */
+  z-index: 1000;    /* Ensure it stays above other content */
+  background-color: #191414; /* Your navbar background */
+}
+
+/* Top Bar */
+.top-bar {
+  text-align: center;
+  font-size: 14px;
+  color: #ccc;
+  padding: 5px 0;
+}
+
+.top-bar a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.top-bar a:hover {
+  text-decoration: underline;
+}
+
+/* Main Nav */
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+}
+
+/* Logo Styling */
+.logo {
+  text-align: left;
+}
+
+.logo-text {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+}
+
+.logo-text-bold {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo-sub {
+  font-size: 15px;
+  letter-spacing: 4px;
+  color: #aaa;
+}
+
+/* Links */
+.nav-links {
+  display: flex;
+  gap: 68px;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.nav-links li {
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: white;
+}
+
+/* Fix for react-router Link inside li */
+.nav-links li a {
+  text-decoration: none;   /* remove underline */
+  color: inherit;          /* use li color */
+  font-weight: inherit;
+  font-size: inherit;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #00ffcc; /* hover effect for links */
+}
+
+/* underline effect */
+.nav-links li:hover::after {
+  width: 100%;
+}
+
+.nav-links li::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;   /* space between text and underline */
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: currentColor; /* same as text color */
+  transition: width 0.3s ease;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Icons */
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  cursor: pointer;
+  color: #aaa;
+  transition: color 0.2s ease-in-out;
+}
+
+.icon:hover {
+  color: white;
+}
+
+/* Cart styling */
+.cart {
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: gray;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}

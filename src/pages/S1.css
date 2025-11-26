@@ -1,0 +1,365 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+
+.s1-section{
+    width: 100%;
+    height: 4600px;
+    color: white;
+ 
+}
+
+.motu h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 140px;
+    
+}
+
+.motu img{
+    width: 80%;
+    height: 500px;
+    margin-left: 143px;
+    margin-top: 20px;
+}
+
+.chimney-container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #000;
+  color: white;
+  padding: 60px 100px;
+  font-family: "Georgia", serif;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.chimney-content1 {
+  flex: 1;
+  line-height: 1.8;
+  margin-left: 42px;
+}
+
+.chimney-content1 p {
+  color: #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+
+.chimney-content1 h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.chimney-content1 h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+
+.chimney-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #000;
+  color: white;
+  padding: 60px 100px;
+  font-family:"Georgia", serif;
+  gap: 60px;
+
+}
+.chimney-content2 {
+  flex: 1;
+  line-height: 1.8;
+  margin-left: 42px;
+}
+
+.chimney-content2 p {
+  color: #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+
+.chimney-content2 h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.chimney-content2 h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.chimney-content1 span {
+  color: #e5b400;
+  font-weight: 600;
+}
+
+.chimney-card1 {
+  background:white;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+  padding: 25px;
+  width: 320px;
+  text-align: center;
+}
+
+.chimney-card1 img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.chimney-card1 h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+
+.price {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.price span {
+  text-decoration: line-through;
+  color: #777;
+  margin-left: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #1a1a1a;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.out-btn {
+  width: 100%;
+  padding: 12px;
+  background: #555;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: not-allowed;
+}
+
+.out-btn i {
+  font-size: 16px;
+}
+
+.chimney-feature-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #000;
+  color: white;
+  padding: 60px 100px;
+  gap: 60px;
+  font-family: "Georgia", serif;
+  margin-left: 42px;
+}
+
+.chimney-feature-content {
+  flex: 1;
+  line-height: 1.8;
+}
+
+.chimney-feature-content p {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.chimney-feature-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.chimney-feature-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* PRODUCT CARD STYLING */
+.chimney-feature-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+  padding: 25px;
+  width: 320px;
+  text-align: center;
+}
+
+.chimney-feature-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.chimney-feature-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.price {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.price span {
+  text-decoration: line-through;
+  color: #777;
+  margin-left: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #1a1a1a;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.cart-btn {
+  width: 100%;
+  padding: 12px;
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cart-btn:hover {
+  background: #e5b400;
+  color: #000;
+}
+
+.cart-btn i {
+  font-size: 16px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .chimney-feature-container {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .chimney-feature-card {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+
+    .suggested-section h2{
+        margin-left: 140px;
+        font-size: 40px;
+    }
+
+.slider-container2 {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-left: 140px;
+}
+
+.slider2 {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.8s ease-in-out;
+}
+
+.card {
+  min-width: 250px;
+  height: 300px;
+  background:white;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  flex-shrink: 0;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card p {
+  color: black;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}

@@ -1,0 +1,223 @@
+.home{
+    background-color: black;
+    width: 100%;
+    height: 2150px;
+    color: white;
+
+}
+
+.home p {
+  font-size: 65px;
+  margin-left: 65px;
+  
+}
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: -1; 
+}
+
+
+.btn next {
+    margin-left: 1000px;
+}
+.slider-container {
+  position: relative; /* Keep buttons positioned relative to this container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 75px;
+}
+
+/* Buttons */
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);   /* center vertically regardless of image height */
+  background: rgba(0,255,200,0.2);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 2;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+  left: 20px; /* More inside from left side */
+}
+
+.next {
+  right: 20px; /* More inside from right side (not touching corner) */
+}
+.caption {
+  margin: 5px 0;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  max-width: 80%;
+  line-height: 1.4;
+}
+/* Shop Now Button */
+.shop-btn-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.shop-btn {
+  background-color:white;
+  color: black;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.shop-btn:hover {
+  background-color: rgb(176, 169, 169);
+}
+.img1.line1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+.img1.line2 {
+  font-size: 16px;
+ color: white;
+  
+}
+.img2.line1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+.img2.line2 {
+  font-size: 16px;
+ color: white;
+  
+}
+.img3.line1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+.img3.line2 {
+  font-size: 16px;
+ color: white;
+  
+}
+.img4.line1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+.img4.line2 {
+  font-size: 16px;
+ color: white;
+  
+}
+.img5.line1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+.img5.line2 {
+  font-size: 16px;
+ color: white;
+  
+}
+.img6.line1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+.img6.line2 {
+  font-size: 16px;
+ color: white;
+  
+}
+.img7.line1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+.img8.line1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+.video-section{
+    margin-top: 150px;
+}
+.video-row {
+  display: flex;               /* Align children in a row */
+  justify-content: center;     /* Center the row horizontally */
+  gap: 80px;                   /* Space between videos */
+  margin: 50px 0;
+  margin-top: 95px;
+  flex-wrap: wrap; 
+           /* Wrap on smaller screens */
+}
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.video-caption {
+  margin-top: 30px;
+  font-size: 0px;
+  color: white;     /* or your preferred color */
+  text-align: center;
+}
+
+.phone-video {
+  width:340px;             /* Phone width */
+  height: 580px;            /* Phone height */
+  border-radius: 40px;      /* Rounded corners like a phone */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* 3D effect */
+  object-fit: cover;        /* Fill the frame nicely */
+  background: black;
+}
+.video-container:hover .phone-video {
+  transform: scale(1.1); /* Zoom in on hover */
+  box-shadow: 0 12px 35px rgba(0,0,0,0.6); /* Slightly stronger shadow */
+}
+
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+video::-webkit-media-controls-overlay-play-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-volume-slider,
+video::-webkit-media-controls-mute-button,
+video::-webkit-media-controls-timeline {
+  display: none !important;
+}
+
